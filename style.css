@@ -1,0 +1,83 @@
+/* Фон для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачность для читабельности текста на фоне */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.header-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.info-section p {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-section p span {
+    font-weight: normal;
+}
+
+/* Оформление кнопки с фоном */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: url('button-background.jpg'); /* Замените на путь к фону кнопки */
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+/* Изображение профиля */
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    opacity: 0.8;
+}
